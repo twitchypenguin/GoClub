@@ -1279,6 +1279,7 @@ GameObject:
   - component: {fileID: 6416291203224447091}
   - component: {fileID: 8842564749041039674}
   - component: {fileID: 7321704128321326847}
+  - component: {fileID: -7597653624011414922}
   m_Layer: 0
   m_Name: GoPlayer
   m_TagString: Untagged
@@ -1331,3 +1332,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resetInput: {fileID: -7456555214435860627, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
+--- !u!114 &-7597653624011414922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9005660681102825402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2d85dca746df9f4382436c02d48cbd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  draggable: {fileID: 0}
+  debugSphere: {fileID: 0}
+  leftDragger: {fileID: 0}
+  rightDragger: {fileID: 0}
+  dragLeft: {fileID: 0}
+  dragRight: {fileID: 0}

@@ -452,7 +452,7 @@ GameObject:
   - component: {fileID: 994148909}
   - component: {fileID: 994148908}
   m_Layer: 0
-  m_Name: we234
+  m_Name: debugMarker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1187,6 +1187,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7597653624011414922, guid: 3709491443c4f084c9b6f23398c3fa03,
+        type: 3}
+      propertyPath: dragLeft
+      value: 
+      objectReference: {fileID: -8826107378625449363, guid: c348712bda248c246b8c49b3db54643f,
+        type: 3}
+    - target: {fileID: -7597653624011414922, guid: 3709491443c4f084c9b6f23398c3fa03,
+        type: 3}
+      propertyPath: dragRight
+      value: 
+      objectReference: {fileID: 5146740580248178681, guid: c348712bda248c246b8c49b3db54643f,
+        type: 3}
+    - target: {fileID: -7597653624011414922, guid: 3709491443c4f084c9b6f23398c3fa03,
+        type: 3}
+      propertyPath: draggable
+      value: 
+      objectReference: {fileID: 340846660}
+    - target: {fileID: -7597653624011414922, guid: 3709491443c4f084c9b6f23398c3fa03,
+        type: 3}
+      propertyPath: debugSphere
+      value: 
+      objectReference: {fileID: 994148911}
+    - target: {fileID: -7597653624011414922, guid: 3709491443c4f084c9b6f23398c3fa03,
+        type: 3}
+      propertyPath: leftDragger
+      value: 
+      objectReference: {fileID: 480321499}
+    - target: {fileID: -7597653624011414922, guid: 3709491443c4f084c9b6f23398c3fa03,
+        type: 3}
+      propertyPath: rightDragger
+      value: 
+      objectReference: {fileID: 2146902090}
     - target: {fileID: 6416291203224447091, guid: 3709491443c4f084c9b6f23398c3fa03,
         type: 3}
       propertyPath: m_RootOrder
@@ -1247,26 +1279,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoPlayer
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: dragLeft
-      value: 
-      objectReference: {fileID: -8826107378625449363, guid: c348712bda248c246b8c49b3db54643f,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: draggable
-      value: 
-      objectReference: {fileID: 340846660}
-    - target: {fileID: 0}
-      propertyPath: debugSphere
-      value: 
-      objectReference: {fileID: 994148911}
-    - target: {fileID: 0}
-      propertyPath: leftDragger
-      value: 
-      objectReference: {fileID: 480321499}
-    - target: {fileID: 0}
-      propertyPath: rightDragger
-      value: 
-      objectReference: {fileID: 2146902090}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3709491443c4f084c9b6f23398c3fa03, type: 3}
